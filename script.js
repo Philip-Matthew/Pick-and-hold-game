@@ -75,7 +75,7 @@ document.querySelector('.btn--hold').addEventListener('click', function () {
       scores[activePlayer];
 
     //   Winning Condition.
-    if (scores[activePlayer] >= 20) {
+    if (scores[activePlayer] >= 100) {
       playing = false;
       document
         .querySelector(`.player--${activePlayer}`)
